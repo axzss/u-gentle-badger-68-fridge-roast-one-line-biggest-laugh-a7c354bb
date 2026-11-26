@@ -6,7 +6,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const entry =
-  "My fridge updated its firmware and turned the ice maker into a subscription: first cube free, the rest after a 30-second ad.";
+  "My fridge updated its firmware and turned the ice maker into a subscription: first cube free, the rest once its camera confirms I've watched a 30-second ad.";
 
 // Self-check gate: 1-200 characters, not whitespace-only.
 if (entry.length < 1 || entry.length > 200 || entry.trim().length === 0) {
